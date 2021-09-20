@@ -54,6 +54,8 @@ There appears to be ajor spikes in logins throughout january that are evenly spa
 
 #### Logins during a 2 week period
 Jan 5, 1970 is a monday I plotted 2 weeks to see is there is a pattern and there appears to be an increase in logins during the weekends and then a dropoff in logins starting monday.
+![image](https://user-images.githubusercontent.com/41071502/134081206-11b80872-acc7-4ea1-bd7e-47b1b9850771.png)
+
 
 #### Logins during a weekday
 On weekdays there is a spike in logins around noon
