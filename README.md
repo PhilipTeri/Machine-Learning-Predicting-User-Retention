@@ -5,7 +5,7 @@
 ### Purpose
 Create features that will help predict user retention.
 
-### EDA & Data Cleaning
+### Data Cleaning, EDA & Feature Engineering
 
 Columns & number of rows with missing data:
 <br>'avg_rating_of_driver':      8122
@@ -21,8 +21,6 @@ There is a lot of interesting information you can gather from the histograms bel
 
 ![image](https://user-images.githubusercontent.com/41071502/134080522-498938dc-7373-43b7-ae92-fe3cc5e5d651.png)
 
-### Feature Engineering
-
 ### Results
 ![image](https://user-images.githubusercontent.com/41071502/134080538-859184ec-6885-4de7-bcba-3ffe7a1e334e.png)
 
@@ -31,6 +29,8 @@ There is a lot of interesting information you can gather from the histograms bel
 The accuracy of the random forest model is 0.8320868516284681
 
 The accuracy of the logistic regression model is 0.8494571773220748
+
+The logistic regression performed slightly better than the random forest model. I would like to test out gradient boosting in the future to see if there are any improvements in the accuracy.
 
 
 ## Part 2 - Experiment and Metrics Design
