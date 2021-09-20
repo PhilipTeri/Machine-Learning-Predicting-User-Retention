@@ -2,7 +2,19 @@
 
 ## Part 3 - Predictive Modeling
 
+### Purpose
+Create features that will help predict user retention.
+
 ### EDA & Data Cleaning
+
+The first thing I did was remove rows with missing data.
+
+The following columms contained missing data:
+avg_rating_of_driver      8122-n/a
+phone                      396-n/a
+avg_rating_by_driver       201-n/a
+
+
 ![image](https://user-images.githubusercontent.com/41071502/134080487-cbecdf0b-0982-43b9-802f-1cb68c5f128d.png)
 
 ![image](https://user-images.githubusercontent.com/41071502/134080493-abdc5d01-ce6b-4c0a-a6d5-e1bdd28af540.png)
