@@ -25,15 +25,15 @@ The accuracy of the logistic regression model is 0.8494571773220748
 
 ## Part 2 - Experiment and Metrics Design
 
-Questions
+#### Questions
 What would you choose as the key measure of success of this experiment in encouraging driver partners to serve both cities, and why would you choose this metric?
 Describe a practical experiment you would design to compare the effectiveness of the proposed change in relation to the key measure of success. Please provide details on: a. how you will implement the experiment b. what statistical test(s) you will conduct to verify the significance of the observation c. how you would interpret the results and provide recommendations to the city operations team along with any caveats.
-Question 1 Answer:
+#### Question 1 Answer:
 The goal of this experiment is to encourage drivers from each city to work in both cities. The reason for this is because each city has a different time of day where people are most active. This means that there is a surge multiplier to the price during those times because there is high demand for drivers.
 
 A key measure of success would be a decrease in the average surge applied to each users trip. This would mean drivers from one city during their slow period(non-surge) have gone into the other city and during their peak times. Surge prices are calculated based on demand for drivers, so the hypothesis is that this should drop.
 
-Question 2 Answer:
+#### Question 2 Answer:
 I would use a two sample t-test to see if there is a significant difference in the mean of the current average surge multiplier and the average after removing tolls from the bridge. The Null hypothesis is that there will be no significant change in the aeverage of both.
 
 The t-test would give a t-value that represents the probability of getting a value above or below the mean of the t-distribution. I can then calculate the p-value of the tails of the t-distibution to determine whether the null should be rejected or not. If I set my significance level to 0.05 and the p-value is less than the significance level I can reject the null hypothesis. This would suggest that there is a significant difference the the two averages in surge prices.
