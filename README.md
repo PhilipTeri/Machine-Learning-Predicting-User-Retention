@@ -7,17 +7,15 @@ Create features that will help predict user retention.
 
 ### EDA & Data Cleaning
 
-The first thing I did was remove rows with missing data.
-
 Columns & number of rows with missing data:
-<br>avg_rating_of_driver:      8122
-<br>phone:                      396
-<br>avg_rating_by_driver:       201
+<br>'avg_rating_of_driver':      8122
+<br>'phone':                      396
+<br>'avg_rating_by_driver':       201
 
 
-![image](https://user-images.githubusercontent.com/41071502/134080487-cbecdf0b-0982-43b9-802f-1cb68c5f128d.png)
+'last_trip_date' & 'signup_date' are converted to datetime columns. 'last_trip_date' is then used to create the 'active' feature. If 'last_trip_date' is between may 1st and may 31st, they are considered active.
 
-![image](https://user-images.githubusercontent.com/41071502/134080493-abdc5d01-ce6b-4c0a-a6d5-e1bdd28af540.png)
+There is a lot of interesting information you can gather from the histograms below. For example, if you look at the pecentage of user's trips occuring during a weekday you'll see that it is common to use the service everyday of the weekday or not at all. Most of these histograms are heavilty skewed left or right. 
 
 ![image](https://user-images.githubusercontent.com/41071502/134080506-02a132c9-c8c7-43e7-bbc4-0d2b530c76b8.png)
 
