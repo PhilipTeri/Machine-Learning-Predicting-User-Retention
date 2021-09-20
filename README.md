@@ -10,9 +10,9 @@ Create features that will help predict user retention.
 The first thing I did was remove rows with missing data.
 
 The following columms contained missing data:
-<br>avg_rating_of_driver      8122-n/a
-<br>phone                      396-n/a
-<br>avg_rating_by_driver       201-n/a
+<br>avg_rating_of_driver:      8122-n/a
+<br>phone:                      396-n/a
+<br>avg_rating_by_driver:       201-n/a
 
 
 ![image](https://user-images.githubusercontent.com/41071502/134080487-cbecdf0b-0982-43b9-802f-1cb68c5f128d.png)
