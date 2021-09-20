@@ -42,7 +42,7 @@ A caveat to study is that drivers may not want to drive to another city, or may 
 
 ## Part 1 - Exploratory Data Analysis
 
-The attached logins.json file contains (simulated) timestamps of user logins in a particular geographic location. Aggregate these login counts based on 15­minute time intervals, and visualize and describe the resulting time series of login counts in ways that best characterize the underlying patterns of the demand. Please report/illustrate important features of the demand, such as daily cycles. If there are data quality issues, please report them.
+Aggregate these login counts based on 15­minute time intervals, and visualize and describe the resulting time series of login counts in ways that best characterize the underlying patterns of the demand. Please report/illustrate important features of the demand, such as daily cycles. If there are data quality issues, please report them.
 
 #### All Logins
 ![image](https://user-images.githubusercontent.com/41071502/134080891-28a520e1-8294-4b40-a0c3-329b9a580d86.png)
